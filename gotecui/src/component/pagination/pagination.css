@@ -1,0 +1,232 @@
+/* .disabled{
+    display: none;
+} */
+
+.overview-main{
+    margin: 0 auto;
+    padding: 1rem;
+    height: auto;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.environment{
+    width: 100%;
+    gap: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-button {
+    height: 100%;
+}
+
+.title-environment{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title-environment-right{
+    gap: var(--spacing-sm);
+    display: flex;
+    flex-direction: row;
+}
+
+.title-environment p{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+
+.div-child-label .format-text{
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+
+.div-button label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 4px;
+    border-style: dashed;
+    cursor: pointer;
+    border: 1px solid #bff0e8;
+}
+
+.div-button label .div-child-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--spacing-xs);
+}
+
+.custom-file-input{
+    display: none;
+}
+
+.class-pagination-action{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    column-gap: 0.5rem;
+}
+
+.class-page-main{
+    width: 100%;
+    gap: 0.5rem;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    min-height: 800px;
+}
+
+.class-page-main a{
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+.page-link{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-weight: 550;
+    background: border-box;
+    cursor: pointer;
+    color: unset;
+}
+
+.frame-page-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-item.active{
+    color: white;
+    background-color: rgb(82, 103, 126);
+}
+
+.page-item {
+    width: 30px;
+    border-radius: 4px;
+    overflow: hidden;
+    height: 30px;
+    background-color: rgb(207, 217, 228);
+}
+
+.page-link.disabled{
+    background: border-box;
+    cursor: default;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.1;
+}
+
+.form-control{
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(207, 217, 228);
+}
+
+input[type="number" i] {
+    padding: 0 4px;
+    box-sizing: border-box;
+}
+
+.jump-page{
+    display: flex;
+    column-gap: 0.5rem;
+    flex-direction: row;
+}
+
+.jump-page .btn{
+    background-color: rgb(207, 217, 228);
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-dowload{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding: 0.6rem 0.8rem;
+    background-color: #0052CC;
+    z-index: 3;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+.class-classify-main.item .class-classify{
+    display: grid;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    gap: 0.5rem;
+}
+
+.classify-item.single.item{
+    display: grid;
+    grid-column: span 1 / span 1;
+}
+
+.classify-item.single.item input{
+    border-radius: 4px;
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    background-color: #c3dbff;
+}
+
+.classify-item-single-frame{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-weight: 700;
+    justify-content: space-between;
+    padding: 0.5rem;
+    color: white;
+    background-color: #2c645b;
+    border-radius: 4px;
+}
+
+.span-block-center{
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 16px;   
+    font-weight: 600;
+}
+
+.frame-icon-check{
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    background-color: rgb(206, 215, 221);
+    color: white;
+}

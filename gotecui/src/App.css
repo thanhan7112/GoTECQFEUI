@@ -5,7 +5,7 @@
 .main {
   display: flex;
   flex-direction: column;
-  width: calc(100% - 280px);
+  width: 100%;
   min-height: 100vh;
   position: relative;
 }

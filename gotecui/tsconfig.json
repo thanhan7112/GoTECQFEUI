@@ -10,7 +10,7 @@
     "paths": {
       "component/*": ["component/*"],
       "pages/*": ["pages/*"],
-      "util/*": ["util/*"],
+      "utils/*": ["utils/*"],
       "modal/*": ["modal/*"],
     },
     "allowJs": true,
