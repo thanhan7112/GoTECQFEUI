@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import Papa from 'papaparse';
-import jsyaml from 'js-yaml';
 import { Modal } from 'antd';
 import { AiFillEdit } from 'react-icons/ai'
 import './overview.css';
